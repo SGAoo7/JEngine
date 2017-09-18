@@ -1,3 +1,5 @@
-﻿  main.cpp
+﻿  InputManager.cpp
+  Game.cpp
+  Generating Code...
   Game.vcxproj -> D:\School\2016-2017\Modules\Eigen Ambitieproject\JEngine\Game\Debug\Game.exe
   Game.vcxproj -> D:\School\2016-2017\Modules\Eigen Ambitieproject\JEngine\Game\Debug\Game.pdb (Partial PDB)

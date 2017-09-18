@@ -1,11 +1,31 @@
 #pragma once
 
-namespace JEngine {
+#include <iostream>
+#include <time.h>
 
-	class Game {
-		public:
-			Game();
-			~Game();
-	};
+#include "InputManager.h"
 
-}
+class Game {
+public:
+	~Game();
+
+	static Game* GetInstance();
+
+	void Start();
+	void Update();
+
+	bool GetGameOver();
+
+private:
+	Game();
+
+	void Render();
+	void HandleInput();
+
+private:
+	bool isGameOver;
+
+	clock_t deltaTime;
+
+	InputManager input = InputManager(this);
+};
