@@ -4,6 +4,7 @@
 #include <time.h>
 
 #include "InputManager.h"
+#include "SceneManager.h"
 
 class Game {
 public:
@@ -28,4 +29,5 @@ private:
 	clock_t deltaTime;
 
 	InputManager input = InputManager(this);
+	SceneManager sceneManager = SceneManager(this);
 };

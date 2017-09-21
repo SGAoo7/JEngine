@@ -45,5 +45,9 @@ void Game::Render()
 
 void Game::HandleInput()
 {
-	bool key = input.KeyDown(VK_UP);
+	bool key = input.KeyDown(Keys::Up);
+
+	if (key) {
+		std::cout << "yo" << std::endl;
+	}
 }

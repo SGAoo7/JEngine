@@ -33,9 +33,11 @@ bool InputManager::KeyPressed()
 	return false;
 }
 
-bool InputManager::KeyDown(UINT key)
+bool InputManager::KeyDown(Keys key)
 {
-	if (GetAsyncKeyState(key)) {
+	UINT UIntKey = KeyToUINT(key);
+
+	if (GetAsyncKeyState(UIntKey)) {
 		return true;
 	}
 
@@ -59,4 +61,26 @@ bool InputManager::OnMouseRelease()
 bool InputManager::OnMouse()
 {
 	return false;
+}
+
+UINT InputManager::KeyToUINT(Keys key)
+{
+	UINT UIntKey = 0;
+
+	switch (key) {
+	case Up:
+		UIntKey = VK_UP;
+		break;
+	case Down:
+		UIntKey = VK_DOWN;
+		break;
+	case Left:
+		UIntKey = VK_LEFT;
+		break;
+	case Right:
+		UIntKey = VK_RIGHT;
+		break;
+	}
+
+	return UIntKey;
 }
