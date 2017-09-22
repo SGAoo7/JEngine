@@ -23,6 +23,7 @@ Game* Game::GetInstance()
 
 void Game::Start()
 {
+	window.Start(800, 500);
 }
 
 void Game::Update()

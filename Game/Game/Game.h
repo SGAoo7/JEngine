@@ -5,6 +5,7 @@
 
 #include "InputManager.h"
 #include "SceneManager.h"
+#include "Window.h"
 
 class Game {
 public:
@@ -30,4 +31,5 @@ private:
 
 	InputManager input = InputManager(this);
 	SceneManager sceneManager = SceneManager(this);
+	Window window;
 };
