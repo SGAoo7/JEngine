@@ -1,6 +1,7 @@
-﻿  Game.cpp
-  Generating Code...
-  Skipping... (no relevant changes detected)
+﻿  CustomRenderWindow.cpp
+  Game.cpp
+  InputManager.cpp
   SceneManager.cpp
-  Game.vcxproj -> C:\Users\Jens\Documents\School\Schooljaar 2017 & 2018\Modules\Eigen Ambitieproject\JEngine\Game\Debug\Game.exe
-  Game.vcxproj -> C:\Users\Jens\Documents\School\Schooljaar 2017 & 2018\Modules\Eigen Ambitieproject\JEngine\Game\Debug\Game.pdb (Partial PDB)
+  main.cpp
+  Generating Code...
+  Game.vcxproj -> D:\School\2016-2017\Modules\Eigen Ambitieproject\JEngine\Game\Debug\Game.exe

@@ -2,10 +2,11 @@
 
 #include <iostream>
 #include <time.h>
+#include <string>
 
 #include "InputManager.h"
 #include "SceneManager.h"
-#include "Window.h"
+#include "CustomRenderWindow.h"
 
 class Game {
 public:
@@ -16,6 +17,7 @@ public:
 	void Start();
 	void Update();
 
+	void SetGameOver(bool state);
 	bool GetGameOver();
 
 private:
@@ -31,5 +33,5 @@ private:
 
 	InputManager input = InputManager(this);
 	SceneManager sceneManager = SceneManager(this);
-	Window window;
+	CustomRenderWindow window;
 };

@@ -23,7 +23,8 @@ Game* Game::GetInstance()
 
 void Game::Start()
 {
-	window.Start(800, 500);
+	window.Init(this);
+	window.InitRenderWindow(1920, 1080, "JEngine");
 }
 
 void Game::Update()
@@ -35,6 +36,11 @@ void Game::Update()
 	HandleInput();
 }
 
+void Game::SetGameOver(bool state)
+{
+	isGameOver = state;
+}
+
 bool Game::GetGameOver()
 {
 	return isGameOver;
@@ -42,6 +48,7 @@ bool Game::GetGameOver()
 
 void Game::Render()
 {
+	//window.Update();
 }
 
 void Game::HandleInput()

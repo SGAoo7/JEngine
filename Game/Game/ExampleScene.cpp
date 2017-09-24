@@ -14,8 +14,6 @@ ExampleScene::~ExampleScene()
 void ExampleScene::Start()
 {
 	Scene::Start();
-
-	std::cout << "as;dogiyadsg" << std::endl;
 }
 
 void ExampleScene::Update()
