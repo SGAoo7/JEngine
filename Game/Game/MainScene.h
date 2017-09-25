@@ -1,5 +1,8 @@
 #pragma once
 
+#include <iostream>
+#include <string>
+
 #include "Scene.h"
 
 class MainScene : public Scene
@@ -12,6 +15,6 @@ public:
 	void Update();
 
 private:
-	JAudioSource audio;
+	JAudioSource* audio = new JAudioSource("sound.wav");
 };
 
