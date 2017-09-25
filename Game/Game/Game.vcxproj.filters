@@ -13,5 +13,45 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="JEngine">
+      <UniqueIdentifier>{0e7d366c-4641-4cb6-9e88-873beec22844}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>JEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>JEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JAudioSource.cpp">
+      <Filter>JEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>JEngine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>JEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>JEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JAudioSource.h">
+      <Filter>JEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>JEngine</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
