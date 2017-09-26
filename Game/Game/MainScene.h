@@ -16,5 +16,6 @@ public:
 
 private:
 	JAudioSource* audio = new JAudioSource("sound.wav");
+	JSprite* sprite = new JSprite(this, "../Assets/Art/sprite.png", false, false);
 };
 

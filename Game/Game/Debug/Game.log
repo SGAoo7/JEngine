@@ -1,10 +1,10 @@
-﻿  SceneManager.cpp
-  Scene.cpp
-  MainScene.cpp
+﻿  MainScene.cpp
+  Generating Code...
+  Compiling...
   main.cpp
-  JAudioSource.cpp
+  SceneManager.cpp
+  InputManager.cpp
   Game.cpp
   Generating Code...
-  LINK : D:\School\2016-2017\Modules\Eigen Ambitieproject\JEngine\Game\Debug\Game.exe not found or not built by the last incremental link; performing full link
-  Game.vcxproj -> D:\School\2016-2017\Modules\Eigen Ambitieproject\JEngine\Game\Debug\Game.exe
-  Game.vcxproj -> D:\School\2016-2017\Modules\Eigen Ambitieproject\JEngine\Game\Debug\Game.pdb (Partial PDB)
+  Game.vcxproj -> C:\Users\Jens\Documents\School\Schooljaar 2017 & 2018\Modules\Eigen Ambitieproject\JEngine\Game\Debug\Game.exe
+  Game.vcxproj -> C:\Users\Jens\Documents\School\Schooljaar 2017 & 2018\Modules\Eigen Ambitieproject\JEngine\Game\Debug\Game.pdb (Partial PDB)

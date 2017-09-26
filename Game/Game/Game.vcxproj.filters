@@ -16,42 +16,90 @@
     <Filter Include="JEngine">
       <UniqueIdentifier>{0e7d366c-4641-4cb6-9e88-873beec22844}</UniqueIdentifier>
     </Filter>
+    <Filter Include="JEngine\Input">
+      <UniqueIdentifier>{d5f6dd38-4599-4bb5-a9eb-690949be2421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEngine\Window">
+      <UniqueIdentifier>{80949a05-f5a6-4be7-b1ed-3e47f39f0603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEngine\Scene System">
+      <UniqueIdentifier>{94fdc67e-4f86-4372-a811-b44ababc739a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEngine\Components">
+      <UniqueIdentifier>{15c54a67-cae9-4a5b-b3fa-88943b8b8986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEngine\Components\Audio">
+      <UniqueIdentifier>{bbdce4e5-e59d-4379-b3db-40d76f4202e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEngine\Components\Graphics">
+      <UniqueIdentifier>{022a1f13-a8cd-46c3-bfb4-721fb95a997c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEngine\Components\Graphics\Sprites">
+      <UniqueIdentifier>{db7b152f-793f-435d-9fe6-eb050fb6e789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JEngine\Components\Collision">
+      <UniqueIdentifier>{ae3f3d0a-c401-48f1-9a76-01c57fc8e993}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Game.cpp">
-      <Filter>JEngine</Filter>
-    </ClCompile>
-    <ClCompile Include="SceneManager.cpp">
       <Filter>JEngine</Filter>
     </ClCompile>
     <ClCompile Include="MainScene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="JAudioSource.cpp">
-      <Filter>JEngine</Filter>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>JEngine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomRenderWindow.cpp">
+      <Filter>JEngine\Window</Filter>
     </ClCompile>
     <ClCompile Include="Scene.cpp">
+      <Filter>JEngine\Scene System</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>JEngine\Scene System</Filter>
+    </ClCompile>
+    <ClCompile Include="JAudioSource.cpp">
+      <Filter>JEngine\Components\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>JEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="JSprite.cpp">
+      <Filter>JEngine\Components\Graphics\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="JCollider.cpp">
+      <Filter>JEngine\Components\Collision</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
       <Filter>JEngine</Filter>
     </ClInclude>
-    <ClInclude Include="SceneManager.h">
-      <Filter>JEngine</Filter>
-    </ClInclude>
     <ClInclude Include="MainScene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="JAudioSource.h">
-      <Filter>JEngine</Filter>
+    <ClInclude Include="InputManager.h">
+      <Filter>JEngine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomRenderWindow.h">
+      <Filter>JEngine\Window</Filter>
     </ClInclude>
     <ClInclude Include="Scene.h">
-      <Filter>JEngine</Filter>
+      <Filter>JEngine\Scene System</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>JEngine\Scene System</Filter>
+    </ClInclude>
+    <ClInclude Include="JAudioSource.h">
+      <Filter>JEngine\Components\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="JSprite.h">
+      <Filter>JEngine\Components\Graphics\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="JCollider.h">
+      <Filter>JEngine\Components\Collision</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
