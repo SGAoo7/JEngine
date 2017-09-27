@@ -2,8 +2,9 @@
 
 
 
-Scene::Scene()
+Scene::Scene(Game* game)
 {
+	spriteRenderIndex = 0;
 }
 
 
@@ -17,4 +18,10 @@ void Scene::Start()
 
 void Scene::Update()
 {
+}
+
+void Scene::AddSpriteToRenderMap(JSprite* sprite)
+{
+	sprites.insert(std::pair<int, JSprite*>(spriteRenderIndex, sprite));
+	spriteRenderIndex++;
 }
