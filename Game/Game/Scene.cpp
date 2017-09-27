@@ -2,7 +2,7 @@
 
 
 
-Scene::Scene(Game* game)
+Scene::Scene()
 {
 	spriteRenderIndex = 0;
 }

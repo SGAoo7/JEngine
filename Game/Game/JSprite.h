@@ -21,7 +21,7 @@ public:
 	JCollider& GetCollider();
 
 	///setters;
-	void SetFillScale(float x, float y);
+	void SetFillScale(int x, int y);
 	void SetScene(Scene* _scene);
 private:
 	sf::Sprite sprite;

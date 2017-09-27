@@ -10,7 +10,7 @@
 class Scene
 {
 public:
-	Scene(Game* game);
+	Scene();
 	~Scene();
 
 	virtual void Start();

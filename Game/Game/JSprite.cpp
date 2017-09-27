@@ -55,7 +55,7 @@ JCollider& JSprite::GetCollider()
 	return *collider;
 }
 
-void JSprite::SetFillScale(float x, float y)
+void JSprite::SetFillScale(int x, int y)
 {
 	sprite.setTextureRect(sf::IntRect(0, 0, x, y));
 }
