@@ -29,4 +29,3 @@ private:
 
 	Scene* scene;
 };
-
