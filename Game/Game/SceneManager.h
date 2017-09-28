@@ -8,25 +8,17 @@
 //all scenes includes
 #include "MainScene.h"
 
-class Game;
-class CustomRenderWindow;
 
 class SceneManager
 {
 public:
-	SceneManager(Game* game);
+	SceneManager();
 	~SceneManager();
 
 	void StartCurrentScene();
 	void UpdateCurrentScene();
 
 private:
-	void RenderCurrentScene();
-
-private:
-	Game* game;
-	CustomRenderWindow* window;
-
 	std::map<int, Scene*> scenes;
 
 	Scene* currentScene;

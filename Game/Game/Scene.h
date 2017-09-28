@@ -1,10 +1,9 @@
 #pragma once
 
-#include <iostream>
+#include "JAudioSource.h"
+
 #include <map>
 
-#include "Game.h"
-#include "JAudioSource.h"
 #include "JSprite.h"
 
 class Scene
@@ -16,14 +15,7 @@ public:
 	virtual void Start();
 	virtual void Update();
 
-	//sprites
-	void AddSpriteToRenderMap(JSprite* sprite);
-
 public:
-	//components
-
-	//sprites
 	std::map<int, JSprite*> sprites;
-	int spriteRenderIndex;
 };
 

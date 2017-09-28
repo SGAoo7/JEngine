@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  SceneManager.cpp
 c:\users\jens\documents\school\schooljaar 2017 & 2018\modules\eigen ambitieproject\jengine\game\game\game.h(18): error C2143: syntax error: missing ';' before '*'
 c:\users\jens\documents\school\schooljaar 2017 & 2018\modules\eigen ambitieproject\jengine\game\game\game.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
@@ -62,3 +63,15 @@ c:\users\jens\documents\school\schooljaar 2017 & 2018\modules\eigen ambitieproje
   Compiling...
   main.cpp
   Generating Code...
+=======
+﻿  MainScene.cpp
+  Generating Code...
+  Compiling...
+  main.cpp
+  SceneManager.cpp
+  InputManager.cpp
+  Game.cpp
+  Generating Code...
+  Game.vcxproj -> C:\Users\Jens\Documents\School\Schooljaar 2017 & 2018\Modules\Eigen Ambitieproject\JEngine\Game\Debug\Game.exe
+  Game.vcxproj -> C:\Users\Jens\Documents\School\Schooljaar 2017 & 2018\Modules\Eigen Ambitieproject\JEngine\Game\Debug\Game.pdb (Partial PDB)
+>>>>>>> parent of 520c1cb... vcxxc

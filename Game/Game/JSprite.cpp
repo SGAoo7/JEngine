@@ -9,9 +9,6 @@ JSprite::JSprite(Scene* _scene, std::string _pathToSPrite, bool _isStatic, bool 
 	sprite.setTexture(texture);
 
 	collider = new JCollider(this, _scene, isTrigger);
-
-	sprite.setPosition(0, 0);
-	_scene->AddSpriteToRenderMap(this);
 }
 
 JSprite::~JSprite()

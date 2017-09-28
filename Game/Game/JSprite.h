@@ -2,7 +2,6 @@
 
 #include <SFML\Graphics.hpp>
 #include <iostream>
-#include <map>
 
 class Scene;
 class JCollider;

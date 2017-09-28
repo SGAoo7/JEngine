@@ -26,6 +26,6 @@ private:
 
 	//main components
 	CustomRenderWindow window;
-	SceneManager sceneManager = SceneManager(this);
+	SceneManager sceneManager;
 	InputManager input = InputManager(this);
 };
