@@ -15,7 +15,9 @@ public:
 	virtual void Start();
 	virtual void Update();
 
+	void AddSpriteToRenderLayer(JSprite* jSprite);
 public:
 	std::map<int, JSprite*> sprites;
+	int spriteRenderLayerIndex;
 };
 

@@ -1,4 +1,5 @@
 #include "Game.h"
+#include "SceneManager.h"
 
 Game::Game()
 {
