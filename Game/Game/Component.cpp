@@ -15,6 +15,10 @@ void Component::Start()
 {
 }
 
+void Component::Draw()
+{
+}
+
 void Component::Update()
 {
 }

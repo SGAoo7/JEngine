@@ -34,7 +34,12 @@ void SceneManager::RenderCurrentScene()
 
 	for (auto it = currentScene->GameObjects.begin(); it != currentScene->GameObjects.end(); it++) {
 		for (auto it2 = it->second->Components.begin(); it2 != it->second->Components.end(); it2++) {
-			it2->second.
+			
+			JSprite* sprite = dynamic_cast<JSprite*>(it2->second);
+
+			if (sprite) {
+				window->Draw(sprite->GetSprite());
+			}
 		}
 	}
 

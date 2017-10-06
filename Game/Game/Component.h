@@ -9,6 +9,7 @@ public:
 	virtual ~Component();
 
 	virtual void Start();
+	virtual void Draw();
 	virtual void Update();
 
 	void SetScene(Scene* scene);
