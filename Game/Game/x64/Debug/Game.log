@@ -1,63 +1,12 @@
-﻿  main.cpp
-  SceneManager.cpp
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\game.h(18): error C2143: syntax error: missing ';' before '*'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\game.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\game.h(18): error C2238: unexpected token(s) preceding ';'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\game.h(29): error C3646: 'sceneManager': unknown override specifier
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\game.h(29): error C2059: syntax error: '='
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\game.h(29): error C2238: unexpected token(s) preceding ';'
+﻿  SceneManager.cpp
+c:\users\jens\documents\school\schooljaar 2017 & 2018\modules\eigen ambitieproject\jengine\game\game\scenemanager.cpp : fatal error C1041: cannot open program database 'C:\Users\Jens\Documents\School\Schooljaar 2017 & 2018\Modules\Eigen Ambitieproject\JEngine\Game\Game\x64\Debug\vc141.idb'; if multiple CL.EXE write to the same .PDB file, please use /FS
   Scene.cpp
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(9): error C2504: 'Scene': base class undefined
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(18): error C2143: syntax error: missing ';' before '*'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(18): error C2238: unexpected token(s) preceding ';'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(19): error C2143: syntax error: missing ';' before '*'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(19): error C2238: unexpected token(s) preceding ';'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(20): error C2143: syntax error: missing ';' before '*'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(20): error C2238: unexpected token(s) preceding ';'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(30): error C2065: 'Scene': undeclared identifier
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(30): error C2059: syntax error: '>'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(30): error C2976: 'std::map': too few template arguments
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\map(73): note: see declaration of 'std::map'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(32): error C2143: syntax error: missing ';' before '*'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(32): error C2238: unexpected token(s) preceding ';'
   MainScene.cpp
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(30): error C2065: 'Scene': undeclared identifier
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(30): error C2059: syntax error: '>'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(30): error C2976: 'std::map': too few template arguments
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\map(73): note: see declaration of 'std::map'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(32): error C2143: syntax error: missing ';' before '*'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(32): error C2238: unexpected token(s) preceding ';'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(35): error C3646: 'mainScene': unknown override specifier
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(35): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  main.cpp
   JSprite.cpp
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(9): error C2504: 'Scene': base class undefined
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(18): error C2143: syntax error: missing ';' before '*'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(18): error C2238: unexpected token(s) preceding ';'
   JCollider.cpp
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(9): error C2504: 'Scene': base class undefined
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(18): error C2143: syntax error: missing ';' before '*'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(18): error C2238: unexpected token(s) preceding ';'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(19): error C2143: syntax error: missing ';' before '*'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(19): error C2238: unexpected token(s) preceding ';'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(20): error C2143: syntax error: missing ';' before '*'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(20): error C2238: unexpected token(s) preceding ';'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(30): error C2065: 'Scene': undeclared identifier
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(30): error C2059: syntax error: '>'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(30): error C2976: 'std::map': too few template arguments
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\map(73): note: see declaration of 'std::map'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(32): error C2143: syntax error: missing ';' before '*'
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(32): error C2238: unexpected token(s) preceding ';'
-  Game.cpp
-  Generating Code...
-  Skipping... (no relevant changes detected)
+  JAudioSource.cpp
   InputManager.cpp
+  Game.cpp
+  CustomRenderWindow.cpp
+  Generating Code...

@@ -3,7 +3,9 @@
 #include <iostream>
 #include <SFML\Audio.hpp>
 
-class JAudioSource
+#include "Component.h"
+
+class JAudioSource : public Component
 {
 public:
 	JAudioSource(std::string _pathToAudio);

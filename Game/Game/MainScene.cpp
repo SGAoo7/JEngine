@@ -14,7 +14,7 @@ MainScene::~MainScene()
 void MainScene::Start()
 {
 	Scene::Start();
-	//audio->Play();
+	testGameObject.AddComponent(audio);
 }
 
 void MainScene::Update()
