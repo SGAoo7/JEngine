@@ -5,6 +5,7 @@
 GameObject::GameObject(std::string name, Scene* scene) : Name(name), scene(scene)
 {
 	componentIndex = 0;
+	scene->AddToGameObjectList(this);
 }
 
 

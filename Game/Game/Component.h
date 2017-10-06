@@ -6,7 +6,10 @@ class Component
 {
 public:
 	Component();
-	~Component();
+	virtual ~Component();
+
+	virtual void Start();
+	virtual void Update();
 
 	void SetScene(Scene* scene);
 

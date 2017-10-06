@@ -1,10 +1,12 @@
 #pragma once
 
 #include "JAudioSource.h"
+#include "JSprite.h"
 
 #include <map>
+#include <list>
 
-#include "JSprite.h"
+class GameObject;
 
 class Scene
 {
@@ -16,8 +18,16 @@ public:
 	virtual void Update();
 
 	void AddSpriteToRenderLayer(JSprite* jSprite);
+
+	void AddToGameObjectList(GameObject* gameObject);
+
 public:
+	std::map<int, GameObject*> GameObjects;
+
 	std::map<int, JSprite*> sprites;
 	int spriteRenderLayerIndex;
+
+private:
+	int gameObjectLayerIndex;
 };
 

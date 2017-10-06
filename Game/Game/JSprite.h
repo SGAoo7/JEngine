@@ -3,10 +3,12 @@
 #include <SFML\Graphics.hpp>
 #include <iostream>
 
+#include "Component.h"
+
 class Scene;
 class JCollider;
 
-class JSprite
+class JSprite : public Component
 {
 public:
 	JSprite(Scene* _scene, std::string _pathToSPrite, bool _isStatic, bool _isTrigger);
@@ -22,6 +24,8 @@ public:
 	///setters;
 	void SetFillScale(int x, int y);
 	void SetScene(Scene* _scene);
+
+	void Update();
 private:
 	sf::Sprite sprite;
 	sf::Texture texture;

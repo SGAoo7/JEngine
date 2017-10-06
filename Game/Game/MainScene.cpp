@@ -15,6 +15,7 @@ void MainScene::Start()
 {
 	Scene::Start();
 	testGameObject.AddComponent(audio);
+	testGameObject.AddComponent(&sprite);
 }
 
 void MainScene::Update()

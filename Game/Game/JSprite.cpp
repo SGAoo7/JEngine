@@ -64,3 +64,7 @@ void JSprite::SetScene(Scene * _scene)
 	scene = _scene;
 	collider = new JCollider(this, scene, isTrigger);
 }
+
+void JSprite::Update()
+{
+}

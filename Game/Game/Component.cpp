@@ -11,6 +11,14 @@ Component::~Component()
 {
 }
 
+void Component::Start()
+{
+}
+
+void Component::Update()
+{
+}
+
 void Component::SetScene(Scene* scene) {
 	this->scene = scene;
 }

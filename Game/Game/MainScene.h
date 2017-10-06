@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <string>
+#include <list>
 
 #include "Scene.h"
 #include "GameObject.h"
@@ -19,8 +20,7 @@ public:
 private:
 	GameObject testGameObject = GameObject("TestObject", this);
 
-
 	JAudioSource* audio = new JAudioSource("sound.wav");
-	JSprite* sprite = new JSprite(this, "../Assets/Art/sprite.png", false, false);
+	JSprite sprite = JSprite(this, "../Assets/Art/sprite.png", false, false);
 };
 

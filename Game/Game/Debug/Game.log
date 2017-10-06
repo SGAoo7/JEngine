@@ -1,16 +1,3 @@
-﻿  main.cpp
-  SceneManager.cpp
-  Scene.cpp
-  MainScene.cpp
-  JCollider.cpp
-  InputManager.cpp
-  GameObject.cpp
-  Game.cpp
-  Component.cpp
-  Generating Code...
-  Compiling...
-  JSprite.cpp
-  JAudioSource.cpp
-  Generating Code...
+﻿  SceneManager.cpp
   Game.vcxproj -> C:\Users\Jens\Documents\School\Schooljaar 2017 & 2018\Modules\Eigen Ambitieproject\JEngine\Game\Debug\Game.exe
   Game.vcxproj -> C:\Users\Jens\Documents\School\Schooljaar 2017 & 2018\Modules\Eigen Ambitieproject\JEngine\Game\Debug\Game.pdb (Partial PDB)

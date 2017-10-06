@@ -26,7 +26,6 @@ private:
 	Game* game;
 	CustomRenderWindow* window;
 
-
 	std::map<int, Scene*> scenes;
 
 	Scene* currentScene;
@@ -34,4 +33,3 @@ private:
 	///all scenes in game
 	MainScene mainScene;
 };
-

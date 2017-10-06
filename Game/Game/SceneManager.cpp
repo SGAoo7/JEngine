@@ -32,8 +32,10 @@ void SceneManager::RenderCurrentScene()
 {
 	window->BeginDraw();
 
-	for (auto it = currentScene->sprites.begin(); it != currentScene->sprites.end(); it++) {
-		window->Draw(it->second->GetSprite());
+	for (auto it = currentScene->GameObjects.begin(); it != currentScene->GameObjects.end(); it++) {
+		for (auto it2 = it->second->Components.begin(); it2 != it->second->Components.end(); it2++) {
+			it2->second.
+		}
 	}
 
 	window->EndDraw();
