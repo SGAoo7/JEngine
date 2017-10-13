@@ -19,7 +19,7 @@ void Component::Draw()
 {
 }
 
-void Component::Update()
+void Component::Update(float deltaTime)
 {
 }
 

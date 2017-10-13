@@ -22,9 +22,9 @@ void SceneManager::StartCurrentScene()
 	currentScene->Start();
 }
 
-void SceneManager::UpdateCurrentScene()
+void SceneManager::UpdateCurrentScene(float deltaTime)
 {
-	currentScene->Update();
+	currentScene->Update(deltaTime);
 	RenderCurrentScene();
 }
 
@@ -34,7 +34,9 @@ void SceneManager::RenderCurrentScene()
 
 	for (auto it = currentScene->GameObjects.begin(); it != currentScene->GameObjects.end(); it++) {
 		for (auto it2 = it->second->Components.begin(); it2 != it->second->Components.end(); it2++) {
-			
+
+			//dynamic sprite casting
+			//dynamic sprite rendering
 			JSprite* sprite = dynamic_cast<JSprite*>(it2->second);
 
 			if (sprite) {

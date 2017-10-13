@@ -14,7 +14,7 @@ void Game::Update() {
 
 	deltaTime = clock.restart().asSeconds();
 
-	sceneManager.UpdateCurrentScene();
+	sceneManager.UpdateCurrentScene(deltaTime);
 	input.UpdatePollEvent();
 }
 

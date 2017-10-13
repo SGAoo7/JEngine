@@ -15,12 +15,13 @@ public:
 	~MainScene();
 
 	void Start();
-	void Update();
+	void Update(float deltaTime);
 
 private:
 	GameObject testGameObject = GameObject("TestObject", this);
 
 	JAudioSource* audio = new JAudioSource("sound.wav");
-	JSprite sprite = JSprite(this, "../Assets/Art/sprite.png", false, false);
+	JSprite sprite = JSprite(this, "../Assets/Art/spriteSheet.png", false, false);
+	JAnimation* animtion = new JAnimation("../Assets/Art/spriteSheet.png", sf::Vector2u(7, 4), 27, 0.1f, sprite.GetSprite());
 };
 

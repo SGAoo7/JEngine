@@ -16,8 +16,13 @@ void Scene::Start()
 {
 }
 
-void Scene::Update()
+void Scene::Update(float deltaTime)
 {
+	for (auto objects = GameObjects.begin(); objects != GameObjects.end(); objects++) {
+		for (auto component = objects->second->Components.begin(); component != objects->second->Components.end(); component++) {
+			component->second->Update(deltaTime);
+		}
+	}
 }
 
 void Scene::AddSpriteToRenderLayer(JSprite* jSprite) {

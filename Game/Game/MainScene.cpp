@@ -16,9 +16,12 @@ void MainScene::Start()
 	Scene::Start();
 	testGameObject.AddComponent(audio);
 	testGameObject.AddComponent(&sprite);
+	testGameObject.AddComponent(animtion);
+
+	//audio->Play();
 }
 
-void MainScene::Update()
+void MainScene::Update(float deltaTime)
 {
-	Scene::Update();
+	Scene::Update(deltaTime);
 }

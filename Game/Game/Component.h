@@ -10,7 +10,7 @@ public:
 
 	virtual void Start();
 	virtual void Draw();
-	virtual void Update();
+	virtual void Update(float deltaTime);
 
 	void SetScene(Scene* scene);
 

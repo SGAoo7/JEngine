@@ -2,6 +2,7 @@
 
 #include "JAudioSource.h"
 #include "JSprite.h"
+#include "JAnimation.h"
 
 #include <map>
 #include <list>
@@ -15,7 +16,7 @@ public:
 	~Scene();
 
 	virtual void Start();
-	virtual void Update();
+	virtual void Update(float deltaTime);
 
 	void AddSpriteToRenderLayer(JSprite* jSprite);
 

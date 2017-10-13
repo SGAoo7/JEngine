@@ -18,7 +18,7 @@ public:
 	~SceneManager();
 
 	void StartCurrentScene();
-	void UpdateCurrentScene();
+	void UpdateCurrentScene(float deltaTime);
 
 	void RenderCurrentScene();
 

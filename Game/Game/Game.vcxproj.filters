@@ -40,6 +40,9 @@
     <Filter Include="JEngine\Components\Collision">
       <UniqueIdentifier>{ae3f3d0a-c401-48f1-9a76-01c57fc8e993}</UniqueIdentifier>
     </Filter>
+    <Filter Include="JEngine\Components\Animation">
+      <UniqueIdentifier>{9c51d9e8-a2f9-468a-839e-ed9fbe0f3f06}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp">
@@ -78,6 +81,9 @@
     <ClCompile Include="GameObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="JAnimation.cpp">
+      <Filter>JEngine\Components\Animation</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -112,6 +118,9 @@
     </ClInclude>
     <ClInclude Include="GameObject.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JAnimation.h">
+      <Filter>JEngine\Components\Animation</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
