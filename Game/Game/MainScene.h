@@ -18,10 +18,23 @@ public:
 	void Update(float deltaTime);
 
 private:
+	///declare gameObjects
 	GameObject testGameObject = GameObject("TestObject", this);
+	GameObject testGameObject2 = GameObject("TestObject2", this);
 
-	JAudioSource* audio = new JAudioSource("sound.wav");
-	JSprite sprite = JSprite(this, "../Assets/Art/spriteSheet.png", false, false);
-	JAnimation* animtion = new JAnimation("../Assets/Art/spriteSheet.png", sf::Vector2u(7, 4), 27, 0.1f, sprite.GetSprite());
+	///declare components
+	AudioSource* audio = new AudioSource("sound.wav", testGameObject);
+	
+	Sprite sprite = Sprite("../Assets/Art/spriteSheet.png", false, false, testGameObject);
+	BoxCollider boxCollider = BoxCollider(sprite, testGameObject);
+	
+	Sprite sprite2 = Sprite("../Assets/Art/spriteSheet.png", false, false, testGameObject2);
+	BoxCollider boxCollider2 = BoxCollider(sprite2, testGameObject2);
+
+	Animation* animtion = new Animation("../Assets/Art/spriteSheet.png", sf::Vector2u(8, 3), 24, 0.1f, sprite.GetSprite(), testGameObject);
+	Animation* animtion2 = new Animation("../Assets/Art/spriteSheet.png", sf::Vector2u(8, 3), 24, 0.1f, sprite2.GetSprite(), testGameObject2);
+
+	Font font = Font("../Assets/Fonts/Heroes Legend.ttf", testGameObject);
+	Text text = Text(&font, testGameObject);
 };
 

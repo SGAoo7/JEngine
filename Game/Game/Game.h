@@ -16,6 +16,7 @@ public:
 
 	CustomRenderWindow* GetWindowClass();
 	SceneManager* GetSceneManager();
+	InputManager& GetInputManager();
 
 	//time
 	float deltaTime;

@@ -152,33 +152,39 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BoxCollider.cpp" />
+    <ClCompile Include="Collider.cpp" />
     <ClCompile Include="Component.cpp" />
     <ClCompile Include="CustomRenderWindow.cpp" />
+    <ClCompile Include="Font.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="InputManager.cpp" />
-    <ClCompile Include="JAnimation.cpp" />
-    <ClCompile Include="JAudioSource.cpp" />
-    <ClCompile Include="JCollider.cpp" />
-    <ClCompile Include="JSprite.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="AudioSource.cpp" />
+    <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MainScene.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="Text.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BoxCollider.h" />
+    <ClInclude Include="Collider.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="CustomRenderWindow.h" />
+    <ClInclude Include="Font.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="InputManager.h" />
-    <ClInclude Include="JAnimation.h" />
-    <ClInclude Include="JAudioSource.h" />
-    <ClInclude Include="JCollider.h" />
-    <ClInclude Include="JSprite.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="AudioSource.h" />
+    <ClInclude Include="Sprite.h" />
     <ClInclude Include="MainScene.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="Text.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

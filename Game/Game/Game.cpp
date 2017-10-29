@@ -26,3 +26,8 @@ CustomRenderWindow * Game::GetWindowClass()
 SceneManager* Game::GetSceneManager() {
 	return &sceneManager;
 }
+
+InputManager& Game::GetInputManager()
+{
+	return input;
+}

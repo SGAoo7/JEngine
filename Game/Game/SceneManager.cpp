@@ -2,13 +2,12 @@
 #include "Game.h"
 #include "CustomRenderWindow.h"
 
-
-
 SceneManager::SceneManager(Game* game) : game(game)
 {
 	window = game->GetWindowClass();
 
 	currentScene = static_cast<Scene*>(&mainScene);
+	currentScene->Input = &game->GetInputManager();
 	currentScene->Start();
 }
 
@@ -37,10 +36,16 @@ void SceneManager::RenderCurrentScene()
 
 			//dynamic sprite casting
 			//dynamic sprite rendering
-			JSprite* sprite = dynamic_cast<JSprite*>(it2->second);
+			JE::Sprite* sprite = dynamic_cast<JE::Sprite*>(it2->second);
 
 			if (sprite) {
 				window->Draw(sprite->GetSprite());
+			}
+
+			JE::Text* text = dynamic_cast<JE::Text*>(it2->second);
+
+			if (text) {
+				window->Draw(text->GetText());
 			}
 		}
 	}

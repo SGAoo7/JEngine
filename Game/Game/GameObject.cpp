@@ -1,21 +1,24 @@
 #include "GameObject.h"
+#include "Component.h"
 
 
-
-GameObject::GameObject(std::string name, Scene* scene) : Name(name), scene(scene)
-{
+//Constructor that sets the name of scene of this gameobject
+GameObject::GameObject(std::string name, Scene* scene) : Name(name), scene(scene) {
 	componentIndex = 0;
+	//Add this gameobject to the list of gameobjects in the scene
 	scene->AddToGameObjectList(this);
 }
 
-
-GameObject::~GameObject()
-{
+GameObject::~GameObject() {
 }
 
-void GameObject::AddComponent(Component* component)
-{
+//Adds a component to this gameobject given as a parameter
+void GameObject::AddComponent(Component* component) {
+	//Insert component as a pair into the component map
 	Components.insert(std::pair<int, Component*>(componentIndex, component));
-	component->SetScene(this->scene);
+	//Increase component index
 	componentIndex++;
+	//Set component scene variable to this scene variable of this gameobject
+	component->SetScene(this->scene);
+	
 }

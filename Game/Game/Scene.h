@@ -1,13 +1,21 @@
 #pragma once
 
-#include "JAudioSource.h"
-#include "JSprite.h"
-#include "JAnimation.h"
+#include "InputManager.h"
+
+#include "Sprite.h"
+#include "Animation.h"
+#include "Text.h"
+#include "Font.h"
+#include "AudioSource.h"
+#include "BoxCollider.h"
 
 #include <map>
 #include <list>
+#include <vector>
 
 class GameObject;
+
+using namespace JE;
 
 class Scene
 {
@@ -18,15 +26,13 @@ public:
 	virtual void Start();
 	virtual void Update(float deltaTime);
 
-	void AddSpriteToRenderLayer(JSprite* jSprite);
-
 	void AddToGameObjectList(GameObject* gameObject);
+	GameObject* FindGameObjectByName(std::string gameObjectName);
 
 public:
 	std::map<int, GameObject*> GameObjects;
 
-	std::map<int, JSprite*> sprites;
-	int spriteRenderLayerIndex;
+	InputManager* Input;
 
 private:
 	int gameObjectLayerIndex;
