@@ -1,9 +1,8 @@
 #pragma once
 
-#include <SFML\Graphics.hpp>
+#ifndef COMPONENT_H
+#define COMPONENT_H
 
-
-class Scene;
 class GameObject;
 
 class Component
@@ -19,16 +18,10 @@ public:
 	//Update method of this component
 	virtual void Update(float deltaTime);
 
-	///Setters
-	void SetScene(Scene* scene);
-
-	///Getters
-	Scene& GetScene();
 	GameObject& GetGameObject();
 
 private:
-	//Pointer to specific scene the component is "active" in
-	Scene* scene;
-
 	GameObject& gameObject;
 };
+
+#endif

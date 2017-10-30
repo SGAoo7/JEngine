@@ -3,7 +3,7 @@
 #include <SFML\Graphics.hpp>
 #include <iostream>
 
-#include "Component.h"
+#include "GameObject.h"
 
 namespace JE {
 	class Sprite : public Component {

@@ -1,10 +1,11 @@
 #pragma once
 
+#ifndef FONT_H
+#define FONT_H
+
 #include <SFML\Graphics.hpp>
 
-#include "Component.h"
-
-class Scene;
+#include "GameObject.h"
 
 namespace JE {
 	class Font : public Component {
@@ -17,3 +18,5 @@ namespace JE {
 		sf::Font font;
 	};
 }
+
+#endif

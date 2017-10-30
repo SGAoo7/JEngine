@@ -2,7 +2,7 @@
 
 #include <SFML\Graphics.hpp>
 
-#include "Component.h"
+#include "GameObject.h"
 #include "Font.h"
 
 class Scene;

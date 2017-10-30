@@ -1,27 +1,33 @@
 #pragma once
 
+#ifndef GAMEOBJECT_H
+#define GAMEOBJECT_H
+
 #include <iostream>
 #include <string>
 #include <list>
 #include <map>
 #include <vector>
 
-#include "Scene.h"
+#include "Component.h"
 
-class Component;
+class Scene;
 
 //Custom Object made to hold components and run them
 class GameObject
 {
 public:
 	//Constructor with name and scene to indentify this gameobject with
-	GameObject(std::string name, Scene* scene);
+	GameObject(std::string name, Scene& scene);
 
 	//Destructor
 	~GameObject();
 
 	//Adds a component to this gameobject given as a parameter
 	void AddComponent(Component* component);
+
+	//Gets the current Scene where this GameObject lives in
+	Scene& GetScene();
 
 	//Gets a component asked for and returns it as a type asked for
 	template<class component = Component>
@@ -43,7 +49,7 @@ public:
 
 private:
 	//Current scene where this gameobject lives in
-	Scene* scene;
+	Scene& scene;
 
 	//Index of how much components this gameobject has
 	int componentIndex;
@@ -77,3 +83,5 @@ inline std::vector<component*> GameObject::GetComponents()
 
 	return components;
 }
+
+#endif

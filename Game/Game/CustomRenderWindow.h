@@ -1,5 +1,8 @@
 #pragma once
 
+#ifndef CUSTOMRENDERWINDOW_H
+#define CUSTOMRENDERWINDOW_H
+
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include <SFML\Window.hpp>
@@ -26,3 +29,5 @@ private:
 	///icon
 	sf::String pathToIconImage = "../Assets/Art/Icon/Icon.png";
 };
+
+#endif

@@ -1,15 +1,15 @@
 #pragma once
 
+#ifndef SCENEMANAGER_H
+#define SCENEMANAGER_H
+
 #include <iostream>
 #include <map>
-
-#include "Scene.h"
 
 //all scenes includes
 #include "MainScene.h"
 
 class Game;
-class CustomRenderWindow;
 
 class SceneManager
 {
@@ -33,3 +33,5 @@ private:
 	///all scenes in game
 	MainScene mainScene;
 };
+
+#endif

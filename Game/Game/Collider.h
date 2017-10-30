@@ -3,7 +3,7 @@
 #include <iostream>
 #include <map>
 
-#include "Component.h"
+#include "GameObject.h"
 #include "Sprite.h"
 
 using namespace JE;

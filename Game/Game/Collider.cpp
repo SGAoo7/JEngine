@@ -27,7 +27,7 @@ void Collider::FindCollideableObjects() {
 	collideableObjects.clear();
 	collideableObjectsIndex = 0;
 
-	for (auto it = GetScene().GameObjects.begin(); it != GetScene().GameObjects.end(); it++) {
+	for (auto it = GetGameObject().GetScene().GameObjects.begin(); it != GetGameObject().GetScene().GameObjects.end(); it++) {
 		for (auto it2 = it->second->Components.begin(); it2 != it->second->Components.end(); it2++) {
 			Collider* collider = dynamic_cast<Collider*>(it2->second);
 

@@ -1,21 +1,15 @@
 #pragma once
 
-#include "InputManager.h"
+#ifndef SCENE_H
+#define SCENE_H
 
-#include "Sprite.h"
-#include "Animation.h"
-#include "Text.h"
-#include "Font.h"
-#include "AudioSource.h"
-#include "BoxCollider.h"
+#include "CustomRenderWindow.h"
+#include "GameObject.h"
+#include "JEComponents.h"
 
 #include <map>
 #include <list>
 #include <vector>
-
-class GameObject;
-
-using namespace JE;
 
 class Scene
 {
@@ -32,9 +26,8 @@ public:
 public:
 	std::map<int, GameObject*> GameObjects;
 
-	InputManager* Input;
-
 private:
 	int gameObjectLayerIndex;
 };
 
+#endif

@@ -1,13 +1,11 @@
 #include "SceneManager.h"
 #include "Game.h"
-#include "CustomRenderWindow.h"
 
 SceneManager::SceneManager(Game* game) : game(game)
 {
-	window = game->GetWindowClass();
+	window = &game->GetWindowClass();
 
 	currentScene = static_cast<Scene*>(&mainScene);
-	currentScene->Input = &game->GetInputManager();
 	currentScene->Start();
 }
 

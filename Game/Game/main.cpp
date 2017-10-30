@@ -6,7 +6,7 @@ int main()
 {
 	Game game;
 
-	while (!game.GetWindowClass()->isDone) {
+	while (!game.GetWindowClass().isDone) {
 		game.Update();
 	}
 

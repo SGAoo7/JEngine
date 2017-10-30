@@ -1,3 +1,91 @@
-﻿  MainScene.cpp
-  Game.vcxproj -> D:\School\2016-2017\Modules\Eigen Ambitieproject\JEngine\Game\Debug\Game.exe
-  Game.vcxproj -> D:\School\2016-2017\Modules\Eigen Ambitieproject\JEngine\Game\Debug\Game.pdb (Partial PDB)
+﻿  Board.cpp
+  Generating Code...
+  Compiling...
+  Collider.cpp
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(14): error C2504: 'Scene': base class undefined
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(24): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'GameObject'
+  d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(24): error C2512: 'GameObject::GameObject': no appropriate default constructor available
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C2143: syntax error: missing ';' before '*'
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C2238: unexpected token(s) preceding ';'
+  Generating Code...
+  Compiling...
+  Game.cpp
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C2143: syntax error: missing ';' before '*'
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C2238: unexpected token(s) preceding ';'
+  Generating Code...
+  Compiling...
+  GameObject.cpp
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(14): error C2504: 'Scene': base class undefined
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(24): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'GameObject'
+  d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(24): error C2512: 'GameObject::GameObject': no appropriate default constructor available
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C2143: syntax error: missing ';' before '*'
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C2238: unexpected token(s) preceding ';'
+  Generating Code...
+  Compiling...
+  InputManager.cpp
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C2143: syntax error: missing ';' before '*'
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C2238: unexpected token(s) preceding ';'
+  Generating Code...
+  Compiling...
+  MainScene.cpp
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C2143: syntax error: missing ';' before '*'
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C2238: unexpected token(s) preceding ';'
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(29): error C2065: 'Scene': undeclared identifier
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(29): error C2059: syntax error: '>'
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(29): error C2976: 'std::map': too few template arguments
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\map(73): note: see declaration of 'std::map'
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(31): error C2143: syntax error: missing ';' before '*'
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(31): error C2238: unexpected token(s) preceding ';'
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(34): error C3646: 'mainScene': unknown override specifier
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  Generating Code...
+  Compiling...
+  Scene.cpp
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(14): error C2504: 'Scene': base class undefined
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(24): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'GameObject'
+  d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(24): error C2512: 'GameObject::GameObject': no appropriate default constructor available
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C2143: syntax error: missing ';' before '*'
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C2238: unexpected token(s) preceding ';'
+  Generating Code...
+  Compiling...
+  SceneManager.cpp
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\game.h(21): error C2143: syntax error: missing ';' before '*'
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\game.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\game.h(21): error C2238: unexpected token(s) preceding ';'
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\game.h(33): error C3646: 'sceneManager': unknown override specifier
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\game.h(33): error C2059: syntax error: '='
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\game.h(33): error C2238: unexpected token(s) preceding ';'
+  Generating Code...
+  Compiling...
+  Sprite.cpp
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(14): error C2504: 'Scene': base class undefined
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(24): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'GameObject'
+  d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\mainscene.h(24): error C2512: 'GameObject::GameObject': no appropriate default constructor available
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C2143: syntax error: missing ';' before '*'
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C2238: unexpected token(s) preceding ';'
+  Generating Code...
+  Compiling...
+  main.cpp
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C2143: syntax error: missing ';' before '*'
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\school\2016-2017\modules\eigen ambitieproject\jengine\game\game\scenemanager.h(27): error C2238: unexpected token(s) preceding ';'
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Text.cpp
+  Font.cpp
+  Component.cpp
+  BoxCollider.cpp
+  AudioSource.cpp
+  Animation.cpp

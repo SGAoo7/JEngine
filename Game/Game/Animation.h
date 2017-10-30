@@ -5,7 +5,7 @@
 
 #include <SFML\Graphics.hpp>
 
-#include "Component.h"
+#include "GameObject.h"
 
 namespace JE {
 	//Animation component class

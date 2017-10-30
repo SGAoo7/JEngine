@@ -1,5 +1,8 @@
 #pragma once
 
+#ifndef GAME_H
+#define GAME_H
+
 //component includes
 #include "SceneManager.h"
 #include "CustomRenderWindow.h"
@@ -14,7 +17,7 @@ public:
 	///main functions for game
 	void Update();
 
-	CustomRenderWindow* GetWindowClass();
+	CustomRenderWindow& GetWindowClass();
 	SceneManager* GetSceneManager();
 	InputManager& GetInputManager();
 
@@ -30,3 +33,5 @@ private:
 	SceneManager sceneManager = SceneManager(this);
 	InputManager input = InputManager(this);
 };
+
+#endif

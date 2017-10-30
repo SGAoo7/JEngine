@@ -18,9 +18,9 @@ void Game::Update() {
 	input.UpdatePollEvent();
 }
 
-CustomRenderWindow * Game::GetWindowClass()
+CustomRenderWindow& Game::GetWindowClass()
 {
-	return &window;
+	return window;
 }
 
 SceneManager* Game::GetSceneManager() {

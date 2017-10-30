@@ -3,7 +3,7 @@
 
 InputManager::InputManager(Game* game) : game(game)
 {
-	window = &game->GetWindowClass()->window;
+	window = &game->GetWindowClass().window;
 	keyPressed = false;
 }
 
@@ -18,7 +18,7 @@ void InputManager::UpdatePollEvent()
 
 	if (window->pollEvent(_event)) {
 		if (_event.type == sf::Event::Closed) {
-			game->GetWindowClass()->isDone = true;
+			game->GetWindowClass().isDone = true;
 		}
 	}
 

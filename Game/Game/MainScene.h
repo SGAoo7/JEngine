@@ -8,6 +8,8 @@
 #include "GameObject.h"
 #include "Component.h"
 
+#include "Board.h"
+
 class MainScene : public Scene
 {
 public:
@@ -18,6 +20,12 @@ public:
 	void Update(float deltaTime);
 
 private:
+
+	GameObject boardManager = GameObject("boardManager", *this);
+
+	Board board = Board(512, 512, boardManager);
+
+	/*
 	///declare gameObjects
 	GameObject testGameObject = GameObject("TestObject", this);
 	GameObject testGameObject2 = GameObject("TestObject2", this);
@@ -36,5 +44,6 @@ private:
 
 	Font font = Font("../Assets/Fonts/Heroes Legend.ttf", testGameObject);
 	Text text = Text(&font, testGameObject);
+	*/
 };
 

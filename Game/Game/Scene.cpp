@@ -1,21 +1,18 @@
 #include "Scene.h"
-#include "GameObject.h"
 
 Scene::Scene() {
 	gameObjectLayerIndex = 0;
 }
 
+Scene::~Scene() {
 
-Scene::~Scene()
-{
 }
 
-void Scene::Start()
-{
+void Scene::Start() {
+
 }
 
-void Scene::Update(float deltaTime)
-{
+void Scene::Update(float deltaTime) {
 	for (auto objects = GameObjects.begin(); objects != GameObjects.end(); objects++) {
 		for (auto component = objects->second->Components.begin(); component != objects->second->Components.end(); component++) {
 			component->second->Update(deltaTime);
@@ -34,5 +31,6 @@ GameObject* Scene::FindGameObjectByName(std::string gameObjectName) {
 			return it->second;
 		}
 	}
+
 	return nullptr;
 }

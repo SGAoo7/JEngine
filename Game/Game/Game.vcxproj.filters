@@ -102,6 +102,9 @@
     <ClCompile Include="BoxCollider.cpp">
       <Filter>JEngine\Components\Collider\Box</Filter>
     </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -148,6 +151,12 @@
     </ClInclude>
     <ClInclude Include="BoxCollider.h">
       <Filter>JEngine\Components\Collider\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JEComponents.h">
+      <Filter>JEngine\Components</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

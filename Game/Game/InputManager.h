@@ -1,5 +1,8 @@
 #pragma once
 
+#ifndef INPUTMANAGER_H
+#define INPUTMANAGER_H
+
 #include <SFML\Graphics.hpp>
 
 #include <iostream>
@@ -30,4 +33,4 @@ private:
 	bool keyPressed;
 };
 
-
+#endif

@@ -152,6 +152,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Board.cpp" />
     <ClCompile Include="BoxCollider.cpp" />
     <ClCompile Include="Collider.cpp" />
     <ClCompile Include="Component.cpp" />
@@ -170,6 +171,7 @@
     <ClCompile Include="Text.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Board.h" />
     <ClInclude Include="BoxCollider.h" />
     <ClInclude Include="Collider.h" />
     <ClInclude Include="Component.h" />
@@ -180,6 +182,7 @@
     <ClInclude Include="InputManager.h" />
     <ClInclude Include="Animation.h" />
     <ClInclude Include="AudioSource.h" />
+    <ClInclude Include="JEComponents.h" />
     <ClInclude Include="Sprite.h" />
     <ClInclude Include="MainScene.h" />
     <ClInclude Include="Scene.h" />
